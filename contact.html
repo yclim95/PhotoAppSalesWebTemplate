@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 
-    <title>Gama: Photo Sharing App</title>
+    <title>Gama: Contact</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -33,37 +33,55 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-        <div class="jumbotron">
-            <div class = "container">
-                <div class = "row">
-                    <div class = "col-md-6">
-                        <h1>Capture <span class = "em-text">Life</span></h1>
-                         <p>A fun and easy way to capture & share the momments you live for</p>
-                        <a> <img class = "app-btn" src = "img/icon_app_store.png"> </a>
-                        <a> <img class = "app-btn" src = "img/icon_google_play.png"> </a>
-                    </div>
-
-                    <div class = "col-md-6">
-                        <img class = "showcase-img" src="img/site_phone.png">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-   <!-- Section -->
-      <section id = "middle">
+    <!-- Title bar -->
+      <section id = "title-bar">
           <div class = "container">
               <div class = "row">
+                  <div class = "col-md-12">
+                      <h1>Contact Us</h1>
+                  </div>
+              </div><!-- ENDof row -->
+          </div> <!-- ENDof Container -->
+      </section>
+
+   <!-- Section -->
+      <section id = "contact">
+          <div class = "container">
+              <div class = "row">
+                  <div class = "col-md-8">
+                      <form>
+                          <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Name">
+                          </div>
+
+                           <div class="form-group">
+                            <label>Company Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Company Name">
+                          </div>
+
+                          <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+
+                          <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control" placeholder="Enter Message"></textarea>
+                          </div>
+
+                          <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                  </div><!-- ENDof col-md-8 -->
+
                   <div class = "col-md-4">
                       <img src="img/demo1.jpg" class="demo">
                       <h2>blablabla</h2>
@@ -71,42 +89,10 @@
                       <a href="#" class="btn btn-default">READ MORE</a>
                   </div>
 
-                  <div class = "col-md-4">
-                      <img src="img/demo2.jpg" class="demo">
-                      <h2>blablabla</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi nulla, rhoncus ac ullamcorper eu, tempor ac dui. </p>
-                      <a href="#" class="btn btn-default">READ MORE</a>
-                  </div>
-
-                  <div class = "col-md-4">
-                      <img src="img/demo3.jpg" class="demo">
-                      <h2>blablabla</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi nulla, rhoncus ac ullamcorper eu, tempor ac dui. </p>
-                      <a href="#" class="btn btn-default">READ MORE</a>
-                  </div>
-              </div>
-          </div>
+              </div><!-- ENDof row -->
+          </div><!-- ENDof container -->
       </section>
 
-      <section id = "feature">
-          <div class = "container">
-              <div class = "row">
-                  <div class = "col-md-5">
-                      <h1>Gamma Features</h1>
-                      <ul>
-                          <li><i class = "glyphicon glyphicon-ok"></i>Donec vehicula nibh nulla</li>
-                          <li><i class = "glyphicon glyphicon-ok"></i>eget congue nisl vestibulum non</li>
-                          <li><i class = "glyphicon glyphicon-ok"></i>Aliquam malesuada odio nec velit</li>
-                          <li><i class = "glyphicon glyphicon-ok"></i>sed maximus magna pretium</li>
-                      </ul>
-                  </div>
-
-                  <div class = "col-md-4 col-md-offset-2">
-                      <img class = "big-logo" src = "img/logo.png">
-                  </div>
-              </div>
-          </div>
-      </section>
 
       <!--Footer -->
       <footer>
