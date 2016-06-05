@@ -1,5 +1,8 @@
 #PhotoApp Sales Web Template 
 
+## Live Preview 
+Deployed [**Here**](http://yc-phototemplate.bitballoon.com/)
+
 ## Programming/Markup Languages used : 
 1. HTML 
 2. CSS 
